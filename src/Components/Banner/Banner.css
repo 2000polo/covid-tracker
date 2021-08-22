@@ -1,0 +1,118 @@
+.banner-main-wrapper{
+    height: 500px;
+    /* height: auto; */
+    width: 100vw;
+    /* background-color: black; */
+}
+
+.banner-wrapper{
+    height: 300px;
+    width: 100%;
+    /* background-color: rgb(0, 0, 0); */
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    position: sticky;
+    top: -100px;
+    z-index: 1;
+    /* background-image: url(./corona\ illustration1.png); */
+    /* position: relative; */
+    color: white;
+}
+
+.banner-data{
+    padding: 10vh 3vw;
+    line-height: 26px;
+}
+
+.sub-title{
+    font-size: .8rem;
+    font-weight: 300;
+    color: rgb(187, 187, 187);
+}
+
+.banner-desc{
+    font-size: .9rem;
+    font-weight: 300;
+}
+
+.state-name{
+    font-size:2rem;
+    font-weight: 500;
+}
+
+.cards-wrapper{
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 7;
+}
+
+.cards{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 150px 150px;
+    grid-template-columns: 150px 150px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    height: 130px;
+    width: 130px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    /* box-shadow: 1px 1px 50px 1px; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 15px;
+    line-height: 33px;
+}
+
+.card-name{
+    font-size: .8rem;
+    /* color: rgb(46, 46, 46); */
+}
+
+.case-number{
+    font-size: 1.2rem;
+}
+
+.todays{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.today-update{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.total {
+    /* color: rgb(0, 162, 255); */
+    border-left:7px solid rgb(0, 162, 255);
+}
+
+.active{
+    /* color: rgb(255, 40, 40); */
+    border-left:7px solid rgb(255, 40, 40);
+}
+
+.recoverd{
+    /* color:rgb(30, 184, 30); */
+    border-left:7px solid rgb(30, 184, 30);
+}
+
+.dead{
+    /* color: grey; */
+    border-left:7px solid grey;
+    
+}
+
+/* .card:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+} */

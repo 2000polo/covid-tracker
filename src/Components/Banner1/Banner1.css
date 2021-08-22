@@ -1,0 +1,101 @@
+.banner1-main-wrapper{
+    width: 100vw;
+    height: 450px;
+    padding: 7vh 3vw 1vh 3vw;
+    /* background:linear-gradient(135deg, #46464b 0%,#212125 100%);    color: white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url('./Group\ 16.png');
+    background-position: center;
+    object-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+
+.title-desc-section{
+    width: 100%;
+    line-height: 35px;
+
+}
+
+.banner-desc{
+    color: rgba(255, 255, 255, 0.61);
+    font-size: .9rem;
+
+}
+
+.sub-desc-title{
+    font-size: .9rem;
+}
+
+.loc-name{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.data-display-section{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sep{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.status-row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.status-card{
+    width: 50%;
+    height: 100px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.status-card-name{
+    font-size: .9rem;
+    font-weight: 200;
+}
+
+.covid-case-status{
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.row-sep{
+    height: 90%;
+    border: 1px solid rgba(255, 255, 255, 0.062);
+}
+
+.col-sep{
+    width: 47%;
+    height: auto;
+    border: 1px solid rgba(255, 255, 255, 0.062);
+    /* transform: rotate(180deg); */
+}
+
+@media only screen and (max-width: 900px) {
+    .data-display-section{
+        width: 100%;
+    }
+}

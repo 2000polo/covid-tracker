@@ -1,0 +1,52 @@
+.long-cards-main-wrapper{
+    width: 100%;
+    height: auto;
+    padding: 4vh 3vw;
+    margin-bottom: 30px;
+    background-color: white;
+    position: relative;
+    z-index: 5;
+}
+
+.long-card{
+    width: 100%;
+    height: 50px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    padding: 0 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1vh 0;
+}
+
+.covid-detials{
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.surv{
+    color:rgb(30, 184, 30);
+}
+
+.new{
+    color: red;
+}
+
+.deadl{
+    color: grey;
+}
+
+.surv, .new, .deadl{
+    font-weight: 400;
+}
+
+.new{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 0 10px;
+}
